@@ -16,4 +16,5 @@ for i in range (0,len(str)):
     if str[i] == " " and str[i-1] != "—" and str[i-1] != "." and str[i-1] != " " or str[i] == ".":
         amount_spase+=1
 print("Количесво слов:", amount_spase)
+
 print("Количесво символов:", len(str))
