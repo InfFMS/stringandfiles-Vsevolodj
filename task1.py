@@ -7,6 +7,7 @@
 with open('task1.txt', encoding="utf-8") as f:
     str = f.read()
 amount = 1 # так как строк на 1 больше чем \n, их считает эта переменная
+print(str)
 for i in range (0,len(str)):
     if str[i] == "\n":
         amount+=1
